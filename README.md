@@ -6,3 +6,8 @@
 <h3><a href="https://pypi.org/project/SpeechRecognition/">https://pypi.org/project/SpeechRecognition/</a></h3>
 <h2>Algorithm used </h2>
 <h2><a href="https://www.ijcsmc.com/docs/papers/June2013/V2I6201369.pdf">https://www.ijcsmc.com/docs/papers/June2013/V2I6201369.pdf</a></h2>
+<h2>Libraries Required</h2>
+<ul>
+  <li><h4>SpeechRecognition</h4></li>
+  <li><h4>PyAudio</h4></li>
+  </ul>
