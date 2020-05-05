@@ -70,9 +70,7 @@ if __name__ == "__main__":
         #     continue
         # if no transcription returned and API request failed, break
         #     loop and continue
-        # if API request succeeded but no transcription was returned,
-        #     re-prompt the user to say their guess again. Do this up
-        #     to PROMPT_LIMIT times
+       
         for j in range(PROMPT_LIMIT):
             print('Guess {}. Speak!'.format(i+1))
             guess = recognize_speech_from_mic(recognizer, microphone)
@@ -87,8 +85,7 @@ if __name__ == "__main__":
             print("ERROR: {}".format(guess["error"]))
             break
 
-        # show the user the transcription
-       #  print("You said: {}".format(guess["the_name"]))
+        
 
         # determine if guess is correct and if any attempts remain
         guess_is_correct = guess["the_name"].lower() == NAME.lower()
